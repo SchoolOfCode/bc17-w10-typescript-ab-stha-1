@@ -6,7 +6,7 @@ The aim here is to become more familiar with TypeScript, not to finish all the t
 
 Navigate to the [TypeScript Playground](https://www.typescriptlang.org/play) and have a go at the following things:
 
-1. Declare and initialise variables (names and values of your variables are up to you) for each of the types below. First use type inference. Then try explicitly providing a type annotation. An example has been given for the first one.
+1. Declare and initialise variables (names and values of your variables are up to you) for each of the types below. First use type inference. Then try explicitly providing a type annotation. An example has been given for the first one. ✅
 
    - boolean (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean). Example:
 
@@ -18,20 +18,20 @@ Navigate to the [TypeScript Playground](https://www.typescriptlang.org/play) and
      let hasBeenWashed: boolean = true;
      ```
 
-   - string
-   - number
-   - an array of booleans (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays)
-   - an array of numbers
-   - an array of strings
+   - string ✅
+   - number ✅
+   - an array of booleans (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays) ✅
+   - an array of numbers ✅
+   - an array of strings ✅
 
-2. Declare and implement a function which takes in two numbers and returns their sum. Have type annotations for both the parameters and the return value (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions).
+2. Declare and implement a function which takes in two numbers and returns their sum. Have type annotations for both the parameters and the return value (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions). ✅
 
-3. Declare a new type that describes an object (hint: https://www.typescriptlang.org/docs/handbook/2/objects.html) containing the keys and types below:
+3. Declare a new type that describes an object (hint: https://www.typescriptlang.org/docs/handbook/2/objects.html) containing the keys and types below: ✅
 
-   - amount: a number
-   - uniqueId: a string
-   - isValid: a boolean
-   - addressLines: an array of strings
+   - amount: a number ✅
+   - uniqueId: a string ✅
+   - isValid: a boolean ✅
+   - addressLines: an array of strings ✅
 
 4. Declare a new type alias named `Colour` which is either: "BLUE" or "YELLOW" (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types).
    - See if you can then declare a variable that has an explicit type annotation of `Colour`. You should not be able to assign any non-strings or any strings other than `"BLUE"` or `"YELLOW"` to the variable.
