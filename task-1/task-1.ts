@@ -57,3 +57,18 @@ const randomObject : randomInterface = {
     isValid : false,
     addressLines : ["string 1", "string 2", "string 3"]
 }
+
+
+// 4.
+// Declare a new type alias named `Colour` which is either: "BLUE" or "YELLOW"
+type Colour = 'BLUE' | 'YELLOW';
+
+// - See if you can then declare a variable that has an explicit type annotation of `Colour`.
+let explicitColour : Colour;
+
+explicitColour = 'BLUE';
+
+//    You should not be able to assign any non-strings or any strings other than `"BLUE"` or `"YELLOW"` to the variable.
+
+// See how you can break the Typescript functionality as much as use it correctly. Learn what it can and can't do!
+
